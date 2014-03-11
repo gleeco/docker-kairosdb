@@ -1,6 +1,7 @@
 #!/bin/bash
 
 
+# this networking setup conforms to the setup in docker-cassandra
 BRIDGE=br1
 ip=192.168.100.100
 hostname=kairos
