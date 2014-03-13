@@ -13,7 +13,6 @@ RUN /bin/echo debconf shared/accepted-oracle-license-v1-1 select true | /usr/bin
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install oracle-java7-installer oracle-java7-set-default
 
 # KairosDB
-#ADD http://dl.bintray.com:80/brianhks/generic/kairosdb_0.9.3-2_all.deb  kairosdb_0.9.3-2_all.deb
 ADD kairosdb_0.9.3-2_all.deb  kairosdb_0.9.3-2_all.deb
 RUN dpkg -i kairosdb_0.9.3-2_all.deb
 RUN rm kairosdb_0.9.3-2_all.deb
