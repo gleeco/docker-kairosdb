@@ -33,4 +33,5 @@ In the test directory, two scripts to verify that things work:
 
     $ test/netcat.sh
     $ test/http.sh
+    $ test/http_list.sh
 
